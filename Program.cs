@@ -9,7 +9,7 @@ namespace assignment_one
             Console.WriteLine("Hello World!");
         }
     }
-    class Estimate
+    class Estimate  //First letter of class name is capitalized
     {//These are all properties
     //The {get; set;} means that they are encapsulated
         public string DogOwner {get; set;}
@@ -19,7 +19,7 @@ namespace assignment_one
         public string ServiceAddon {get; set;}
         public float TotalEstimate {get; set;}
 
-        public Estimate(string DogOwner, string DogName, int DogWeight,//This is the Estimate method
+        public estimate(string DogOwner, string DogName, int DogWeight,//This is the estimate method
             int StayDuration, string ServiceAddon)
             {
                 this.DogOwner = DogOwner; //The "this" keyword refers to the thing stored in current method instance
@@ -29,12 +29,16 @@ namespace assignment_one
                 this.ServiceAddon = ServiceAddon;
             }
 
-        public Working()//This method processes the ServiceAddon code and calculates the TotalEstimate
+        //First letter of a method name should be lower case
+        public working()//This method processes the ServiceAddon code and calculates the TotalEstimate
         {
-
+            if (ServiceAddon="N")
+            {
+                TotalEstimate = StayDuration * 75.00;
+            }
         }
 
-        public ToString()//This method outputs the data to the user
+        public toString()//This method outputs the data to the user
         {
 
         }
