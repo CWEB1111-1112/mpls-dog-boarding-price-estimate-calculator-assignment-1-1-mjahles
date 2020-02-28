@@ -29,7 +29,7 @@ namespace assignment_one
                 this.ServiceAddon = ServiceAddon;
             }
 
-        public working()//This method processes the ServiceAddon code and calculates the TotalEstimate
+        public Working()//This method processes the ServiceAddon code and calculates the TotalEstimate
         {
 
         }
