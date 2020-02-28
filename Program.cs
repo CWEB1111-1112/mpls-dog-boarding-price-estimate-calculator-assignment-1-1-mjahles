@@ -13,13 +13,13 @@ namespace assignment_one
     {
         public string DogOwner {get; set;}
         public string DogName {get; set;}
-        public string DogWeight {get; set;}
-        public string StayDuration {get; set;}
+        public int DogWeight {get; set;}
+        public int StayDuration {get; set;}
         public string ServiceAddon {get; set;}
-        public string TotalEstimate {get; set;}
+        public float TotalEstimate {get; set;}
 
         public Estimate(string DogOwner, string DogName, int DogWeight,
-            int StayDuration, string ServiceAddon, string TotalEstimate)
+            int StayDuration, string ServiceAddon, float TotalEstimate)
             {
                 this.DogOwner = DogOwner;
                 this.DogName = DogName;
