@@ -7,8 +7,12 @@ namespace assignment_one
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Estimate one = new Estimate("Doug","LilDoug",45,50,"A");
+            Console.WriteLine(one.working());
         }
     }
+
+
     class Estimate  //First letter of class name is capitalized
     {//These are all properties
     //The {get; set;} means that they are encapsulated
@@ -19,7 +23,9 @@ namespace assignment_one
         public string ServiceAddon {get; set;}
         public float TotalEstimate {get; set;}
 
-        public estimate(string DogOwner, string DogName, int DogWeight,//This is the estimate method
+            
+        /**Constructor with Parameters**/
+        public Estimate(string DogOwner, string DogName, int DogWeight,//This is the Estimate class constructor
             int StayDuration, string ServiceAddon)
             {
                 this.DogOwner = DogOwner; //The "this" keyword refers to the thing stored in current method instance
@@ -30,28 +36,31 @@ namespace assignment_one
             }
 
         //First letter of a method name should be lower case
-        public working()//This method processes the ServiceAddon code and calculates the TotalEstimate
+        public float working()//This method processes the ServiceAddon code and calculates the TotalEstimate
         {
-            if (ServiceAddon="N")
+            if (ServiceAddon=="N")
             {
-                TotalEstimate = StayDuration * 75.00;
+                TotalEstimate = StayDuration * 75.00F;
             }
-            if (ServiceAddon="A")
+            else if (ServiceAddon=="A")
             {
-               TotalEstimate = StayDuration * 169.00; 
+               TotalEstimate = StayDuration * 169.00F; 
             }
-            if (ServiceAddon="C")
+            else if (ServiceAddon=="C")
             {
-                TotalEstimate = StayDuration * 112.00;
+                TotalEstimate = StayDuration * 112.00F;
             }
             else
             {
-                Console.WriteLine("Please input a valid Service Add-on Code")
+                Console.WriteLine("Please input a valid Service Add-on Code");
             }
+            return TotalEstimate;
         }
 
-        public toString()//This method outputs the data to the user
+        public string toString()//This method outputs the data to the user
         {
+            ///TODO: Finish This.
+            return "Not Done Yet";
 
         }
 
