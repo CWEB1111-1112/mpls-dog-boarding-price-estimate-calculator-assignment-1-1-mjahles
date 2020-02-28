@@ -22,9 +22,9 @@ namespace assignment_one
         public Estimate(string DogOwner, string DogName, int DogWeight,//This is the Estimate method
             int StayDuration, string ServiceAddon, float TotalEstimate)
             {
-                this.DogOwner = DogOwner;
-                this.DogName = DogName;
-                this.DogWeight = DogWeight;
+                this.DogOwner = DogOwner; //The "this" keyword refers to the thing stored in current method instance
+                this.DogName = DogName;//For example, this.DogOwner = DogOwner is telling the program to assign the data passed through the method to the actual variable known as DogOwner
+                this.DogWeight = DogWeight;//TLDR; this.DogOwner = DogOwner is assigning the user input into the DogOwner variable
                 this.StayDuration = StayDuration;
                 this.ServiceAddon = ServiceAddon;
                 this.TotalEstimate = TotalEstimate;
