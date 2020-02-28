@@ -10,7 +10,8 @@ namespace assignment_one
         }
     }
     class Estimate
-    {
+    {//These are all properties
+    //The {get; set;} means that they are encapsulated
         public string DogOwner {get; set;}
         public string DogName {get; set;}
         public int DogWeight {get; set;}
@@ -18,7 +19,7 @@ namespace assignment_one
         public string ServiceAddon {get; set;}
         public float TotalEstimate {get; set;}
 
-        public Estimate(string DogOwner, string DogName, int DogWeight,
+        public Estimate(string DogOwner, string DogName, int DogWeight,//This is the Estimate method
             int StayDuration, string ServiceAddon, float TotalEstimate)
             {
                 this.DogOwner = DogOwner;
