@@ -36,6 +36,18 @@ namespace assignment_one
             {
                 TotalEstimate = StayDuration * 75.00;
             }
+            if (ServiceAddon="A")
+            {
+               TotalEstimate = StayDuration * 169.00; 
+            }
+            if (ServiceAddon="C")
+            {
+                TotalEstiamte = StayDuration * 112.00;
+            }
+            else
+            {
+                Console.WriteLine("Please input a valid Service Add-on Code")
+            }
         }
 
         public toString()//This method outputs the data to the user
