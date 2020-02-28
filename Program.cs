@@ -42,7 +42,7 @@ namespace assignment_one
             }
             if (ServiceAddon="C")
             {
-                TotalEstiamte = StayDuration * 112.00;
+                TotalEstimate = StayDuration * 112.00;
             }
             else
             {
