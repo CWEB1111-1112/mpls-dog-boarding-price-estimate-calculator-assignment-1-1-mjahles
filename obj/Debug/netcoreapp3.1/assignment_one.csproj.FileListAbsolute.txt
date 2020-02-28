@@ -1,0 +1,11 @@
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\bin\Debug\netcoreapp3.1\assignment_one.exe
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\bin\Debug\netcoreapp3.1\assignment_one.deps.json
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\bin\Debug\netcoreapp3.1\assignment_one.runtimeconfig.json
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\bin\Debug\netcoreapp3.1\assignment_one.runtimeconfig.dev.json
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\bin\Debug\netcoreapp3.1\assignment_one.dll
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\bin\Debug\netcoreapp3.1\assignment_one.pdb
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\obj\Debug\netcoreapp3.1\assignment_one.csprojAssemblyReference.cache
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\obj\Debug\netcoreapp3.1\assignment_one.AssemblyInfoInputs.cache
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\obj\Debug\netcoreapp3.1\assignment_one.AssemblyInfo.cs
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\obj\Debug\netcoreapp3.1\assignment_one.dll
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment1\obj\Debug\netcoreapp3.1\assignment_one.pdb
