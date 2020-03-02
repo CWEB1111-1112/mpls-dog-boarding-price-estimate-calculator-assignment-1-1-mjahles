@@ -5,15 +5,37 @@ namespace assignment_one
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            //This is what initializes the object instance
             Estimate one = new Estimate();
+
+            //Welcome
+            Console.WriteLine("Welcome to MPLS Dog Boarding!");
+
+            //Start of User prompts
+            Console.WriteLine("Please input your Name:");
             one.DogOwner = Console.ReadLine();
+
+            Console.WriteLine("Please input your Dog's Name:");
             one.DogName = Console.ReadLine();
-            one.DogWeight = Console.ReadLine();
-            one.StayDuration = Console.ReadLine();
+
+            Console.WriteLine("Please input your Dog's Weight (in pounds):");
+            one.DogWeight = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Please input the number of days your dog will be staying with us:");
+            one.StayDuration = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Please input which addon package you would like:");
+            Console.WriteLine("Packages:\nPackage A: Bathing and Grooming $169 Per Day\nPackage C: Bathing $112 Per Day\nPackage N: No Additional Services");
             one.ServiceAddon = Console.ReadLine();
-            Console.WriteLine(one.DogOwner);
-            //TODO: Create a console.read and writeline methods to take user input and output it to the data
+            
+            //End of User prompts
+
+            //Cost Calculation
+            one.working();
+
+            //Presentation of Estimate Summary
+            Console.WriteLine(one.toString());
         }
     }
 
@@ -70,8 +92,7 @@ namespace assignment_one
 
         public string toString()//This method outputs the data to the user
         {
-            ///TODO: Finish This.
-            return "Not Done Yet";
+            return String.Format($"Estimate Summary:\n  Your Name: {DogOwner}\n  Dog Name: {DogName}\n  Dog Weight: {DogWeight}\n  Stay Duration: {StayDuration} Day(s)\n  Service Addon: {ServiceAddon} (A = Bathing + Grooming, C = Bathing, N = None)\n  Total Cost: ${TotalEstimate}");
 
         }
 
