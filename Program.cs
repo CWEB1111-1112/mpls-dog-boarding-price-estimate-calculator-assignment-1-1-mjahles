@@ -92,7 +92,7 @@ namespace assignment_one
 
         public string toString()//This method outputs the data to the user
         {
-            return String.Format($"Estimate Summary:\n  Your Name: {DogOwner}\n  Dog Name: {DogName}\n  Dog Weight: {DogWeight}\n  Stay Duration: {StayDuration} Day(s)\n  Service Addon: {ServiceAddon} (A = Bathing + Grooming, C = Bathing, N = None)\n  Total Cost: ${TotalEstimate}");
+            return String.Format($"Estimate Summary:\n  Your Name: {DogOwner}\n  Dog Name: {DogName}\n  Dog Weight: {DogWeight} Pounds\n  Stay Duration: {StayDuration} Day(s)\n  Service Addon: {ServiceAddon} (A = Bathing + Grooming, C = Bathing, N = None)\n  Total Cost: ${TotalEstimate}");
 
         }
 
