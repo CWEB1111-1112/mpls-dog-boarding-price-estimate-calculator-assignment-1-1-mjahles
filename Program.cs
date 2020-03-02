@@ -6,9 +6,9 @@ namespace assignment_one
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             Estimate one = new Estimate("Doug","LilDoug",45,50,"A");
             Console.WriteLine(one.working());
+            //TODO: Create a console.read and writeline methods to take user input and output it to the data
         }
     }
 
