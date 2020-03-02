@@ -6,8 +6,13 @@ namespace assignment_one
     {
         static void Main(string[] args)
         {
-            Estimate one = new Estimate("Doug","LilDoug",45,50,"A");
-            Console.WriteLine(one.working());
+            Estimate one = new Estimate();
+            one.DogOwner = Console.ReadLine();
+            one.DogName = Console.ReadLine();
+            one.DogWeight = Console.ReadLine();
+            one.StayDuration = Console.ReadLine();
+            one.ServiceAddon = Console.ReadLine();
+            Console.WriteLine(one.DogOwner);
             //TODO: Create a console.read and writeline methods to take user input and output it to the data
         }
     }
@@ -22,6 +27,12 @@ namespace assignment_one
         public int StayDuration {get; set;}
         public string ServiceAddon {get; set;}
         public float TotalEstimate {get; set;}
+
+        //Default Constructor
+        public Estimate() : this("DogOwner", "DogName", 1, 1, "N")
+        {
+
+        }
 
             
         /**Constructor with Parameters**/
