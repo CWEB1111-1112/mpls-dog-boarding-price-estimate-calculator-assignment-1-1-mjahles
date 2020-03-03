@@ -51,12 +51,13 @@ namespace assignment_one
         public float TotalEstimate {get; set;}
 
         //Default Constructor
-        public Estimate() : this("DogOwner", "DogName", 1, 1, "N")
+        public Estimate() : this("Javier", "Piper", 120, 1, "A")
         {
 
         }
 
             
+    //This was left in as a reference in case I need an example later
         /**Constructor with Parameters**/
         public Estimate(string DogOwner, string DogName, int DogWeight,//This is the Estimate class constructor
             int StayDuration, string ServiceAddon)
